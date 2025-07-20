@@ -15,8 +15,8 @@ public class AiController {
     private final OllamaChatModel ollamaChatModel;
     
     @GetMapping("/query")
-    public String reply(@RequestParam String userId, @RequestParam String prompt) {
-        return aiService.generateSmartReply(userId, prompt);
+    public String reply(@RequestParam String userId, @RequestParam String userPrompt) {
+        return aiService.generateSmartReply(userId, userPrompt);
     }
 
     @GetMapping("/prompt")
