@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "driver-service", url = "http://localhost:8082")
+@FeignClient(name = "driver-service")
 public interface DriverClient {
     @GetMapping("driver/{id}")
     DriverDto getDriverById(@PathVariable("id") String id);
