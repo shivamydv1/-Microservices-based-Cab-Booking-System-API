@@ -69,7 +69,7 @@ REST APIs
 ### 🔹 AI Assistant
 - Ask questions with:  
   `GET /ai/prompt?prompt=Hello`
-  `GET /ai/query?userId"'&prompt=""`
+  `GET /ai/query?userId"'&userPrompt=""`
 
 ### 🔹 API Gateway
 - Routes traffic to services
@@ -110,8 +110,6 @@ GET /user
 GET /driver/available
 
 POST /ride/book
-
-PUT /ride/{id}/status?status=COMPLETED
 
 GET /ride/user/{userId}
 
