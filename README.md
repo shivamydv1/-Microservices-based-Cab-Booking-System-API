@@ -117,3 +117,6 @@ GET /ai/prompt?prompt=Hello
 
 🧠 AI Assistant (Ollama)
 Locally integrated Ollama model can respond to prompts via /ai/prompt endpoint.
+
+Book Ride
+![image alt](https://github.com/shivamydv1/-Microservices-based-Cab-Booking-System-API/blob/main/Screenshot%202025-07-19%20220054.png?raw=true)
