@@ -120,3 +120,9 @@ Locally integrated Ollama model can respond to prompts via /ai/prompt endpoint.
 
 Book Ride
 ![image alt](https://github.com/shivamydv1/-Microservices-based-Cab-Booking-System-API/blob/main/Screenshot%202025-07-19%20220054.png?raw=true)
+
+Email Confirmation
+![image alt](https://github.com/shivamydv1/-Microservices-based-Cab-Booking-System-API/blob/main/Screenshot%202025-07-19%20223852.png?raw=true)
+
+AI-ASSISTANT
+![image alt](https://github.com/shivamydv1/-Microservices-based-Cab-Booking-System-API/blob/main/Screenshot%202025-07-20%20104214.png?raw=true)
