@@ -26,6 +26,6 @@ public class AiService {
 
         String finalPrompt = context + "User Question: " + userPrompt;
 
-        return ollamaChatModel.call(userPrompt);
+        return ollamaChatModel.call(finalPrompt);
     }
 }
